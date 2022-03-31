@@ -9,9 +9,6 @@ import Gameboard from './components/Gameboard';
 export default function App() {
   return (
     <View style={Stylesheet.container}>
-      <StatusBar 
-      style="auto" 
-      />
       <Header />
       <Gameboard />
       <Footer />
